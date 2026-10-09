@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Plug NG helps Nigerians discover jobs, paid gigs and grants worth applying for.">
+  <meta name="theme-color" content="#0c241a">
+  <title>The Plug NG — Find your next opportunity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="The Plug NG home"><span class="brand-mark">P</span><span>the plug<span class="lime"> ng</span><small>OPPORTUNITY STARTS HERE</small></span></a>
+    <nav><a href="#opportunities">Opportunities</a><a href="#how">How it works</a><a href="#submit">Submit a lead</a></nav>
+    <a class="nav-cta" href="#opportunities">Find opportunities <span>↗</span></a>
+  </header>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> YOUR NEXT MOVE STARTS HERE</div>
+        <h1>Good opportunities.<br><span>One plug.</span></h1>
+        <p>Jobs, paid gigs and grants worth your time — gathered in one place for ambitious Nigerians.</p>
+        <div class="hero-actions"><a class="button primary" href="#opportunities">Explore opportunities <span>↗</span></a><a class="button ghost" href="#how">How it works <span>↓</span></a></div>
+        <div class="trust-row"><div class="avatar-stack"><i>J</i><i>G</i><i>₦</i></div><span>Find it. Check it. Go for it.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Opportunity cards illustration"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="float-card card-top"><span class="mini-icon">↗</span><div><b>New opportunities</b><small>Fresh leads, less searching</small></div><span class="tiny-dot"></span></div><div class="hero-panel"><div class="panel-head"><span>THE OPPORTUNITY BOARD</span><span class="live"><i></i> LIVE FEED</span></div><div class="panel-number">Your next chapter<span> could start today.</span></div><div class="fake-list"><div><b class="fake-icon green">₦</b><span><strong>Paid gigs</strong><small>Turn your skills into income</small></span><em>Explore ↗</em></div><div><b class="fake-icon white">✳</b><span><strong>Grants & funding</strong><small>Find support for your idea</small></span><em>Explore ↗</em></div><div><b class="fake-icon lime-bg">↗</b><span><strong>Jobs & internships</strong><small>Make your next move</small></span><em>Explore ↗</em></div></div></div><div class="float-card card-bottom"><span class="check">✓</span><div><b>Less scrolling.</b><small>More doing.</small></div></div></div>
+    </section>
+    <section class="ticker"><span>LESS SCROLLING</span><b>✳</b><span>MORE OPPORTUNITY</span><b>✳</b><span>MORE DOING</span><b>✳</b><span>BUILT FOR NIGERIA</span></section>
+    <section class="opportunities section" id="opportunities"><div class="section-heading"><div><div class="eyebrow dark-eyebrow">THE OPPORTUNITY BOARD</div><h2>Find your next <span>yes.</span></h2><p>Browse the board. Filter by what you need. Make your move.</p></div><div class="count-pill"><span class="pulse"></span> <span id="result-count">6</span> starter listings</div></div>
+      <div class="filters"><label class="searchbox"><span>⌕</span><input id="search" type="search" placeholder="Search role, skill or opportunity..."></label><div class="filter-tabs" role="group" aria-label="Filter opportunities"><button class="filter active" data-category="All">All</button><button class="filter" data-category="Jobs">Jobs</button><button class="filter" data-category="Paid gigs">Paid gigs</button><button class="filter" data-category="Grants">Grants</button></div></div>
+      <div class="notice"><span>ⓘ</span><p><b>Starter demo:</b> These sample cards show how listings will look. Check each opportunity's official source and deadline before applying.</p></div>
+      <div class="listing-grid" id="listing-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>No matches yet</h3><p>Try another keyword or category.</p></div>
+      <div class="center"><button class="button outline" id="show-all">Show all starter listings <span>↓</span></button></div>
+    </section>
+    <section class="how section" id="how"><div class="how-intro"><div class="eyebrow">SIMPLE BY DESIGN</div><h2>From “I need a plug”<br>to <span>“I applied.”</span></h2><p>No long stories. Just a clearer path to your next opportunity.</p></div><div class="steps"><article><span>01</span><div><h3>Find your lane</h3><p>Choose jobs, paid gigs or grants that match your goals.</p></div><b>↗</b></article><article><span>02</span><div><h3>Check the details</h3><p>Review eligibility, deadline and the original source before you apply.</p></div><b>↗</b></article><article><span>03</span><div><h3>Make your move</h3><p>Apply through the official link and keep track of your next steps.</p></div><b>↗</b></article></div></section>
+    <section class="submit-banner" id="submit"><div class="submit-icon">✳</div><div><div class="eyebrow">KNOW A GOOD LEAD?</div><h2>Be the plug for someone.</h2><p>Share a job, paid gig or grant for our team to review.</p></div><a class="button primary" href="mailto:hello@theplugng.example?subject=Opportunity%20submission">Submit an opportunity <span>↗</span></a></section>
+    <section class="newsletter"><div><div class="eyebrow dark-eyebrow">STAY IN THE LOOP</div><h2>Good news should find you.</h2><p>Get new opportunities sent straight to you. Newsletter signup will be connected in the next setup step.</p></div><form id="newsletter-form"><label class="searchbox"><span>✉</span><input id="email" type="email" placeholder="Your email address" required></label><button class="button primary" type="submit">Notify me <span>↗</span></button><small id="newsletter-message">No spam. Just useful leads.</small></form></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">P</span><span>the plug<span class="lime"> ng</span><small>OPPORTUNITY STARTS HERE</small></span></a><p>Helping Nigerians find their next move.</p><div><a href="#opportunities">Explore</a><a href="#submit">Submit a lead</a><a href="mailto:hello@theplugng.example">Contact</a></div><small>© <span id="year"></span> The Plug NG. Verify opportunities before sharing personal information or paying any fee.</small></footer>
+  <script src="app.js"></script>
+</body></html>
